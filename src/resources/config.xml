@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+<DiscordBotConfig>
+    <Commands>
+        <command name="test">
+            <reply>This is just a test reply.</reply>
+        </command>
+
+        <command name="lol">
+            <reply>LOLOLOLOL</reply>
+        </command>
+
+        <command name="staff">
+            <reply>Tagging staff - </reply>
+            <cooldown>10</cooldown>
+        </command>
+
+        <command name="functest">
+            <function>funcTest</function>
+        </command>
+    </Commands>
+
+    <Config>
+        
+    </Config>
+</DiscordBotConfig>

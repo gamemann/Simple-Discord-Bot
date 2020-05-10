@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+}
+
+group 'com.scorchhost'
+version '1.0-SNAPSHOT'
+def jdaVersion = '4.BETA.0_1'
+
+sourceCompatibility = 1.8
+
+//create a single Jar with all dependencies
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.scorchhost.Main'
+    }
+}
+
+task fatJar(type: Jar) {
+    manifest.from jar.manifest
+    classifier = 'all'
+    from {
+        (configurations.compile.findAll { !it.path.endsWith(".pom") }).collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    } {
+        exclude "META-INF/*.SF"
+        exclude "META-INF/*.DSA"
+        exclude "META-INF/*.RSA"
+    }
+    with jar
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile "net.dv8tion:JDA:$jdaVersion"
+}

@@ -1,0 +1,89 @@
+<?xml version = "1.0"?>
+<DiscordBotConfig>
+    <Commands>
+        <command name="kgv2 rules">
+                <reply>**Rules**
+1. Please be respectful of others.
+2. Please do not spam.
+3. No Racism.
+4. No NSFW content of any kind.
+5. Memes MUST be dank.
+6. No being rude to other players, or the staff.
+7. If you have any issues with a player/staff member. Please let a higher up know.
+8. No rape jokes or memes of any kind.
+9. NO TALK OF POLITICS EVER.
+10. No talk about religion.</reply>
+                <cooldown>10</cooldown>
+        </command>
+
+        <command name="kgv2 forums">
+                <reply>**Website**
+https://kyantiegaming.com/</reply>
+                <cooldown>10</cooldown>
+        </command>
+
+        <command name="kgv2 servers">
+                <reply>**Servers**
+Garry's Mod Murder - 158.69.123.8:27019
+Garry's Mod Prop Hunt - 158.69.123.8:27018</reply>
+            <cooldown>10</cooldown>
+        </command>
+
+        <command name="kgv2 staff">
+                <reply>**Owners**
+- &lt;@472444248747409420></reply>
+                <cooldown>60</cooldown>
+        </command>
+
+        <command name="kgv2 about">
+                <reply>**About**
+The KG Bot (V2) is a badass Discord bot developed in Java by &lt;@196425012670889984> and &lt;@472444248747409420>. Everything is configurable in an XML file.  There is a continuous development to this bot to add new features along with improving the already-existing features. Feel free to message the KG Staff if you have a suggestion!</reply>
+                <cooldown>60</cooldown>
+        </command>
+
+        <command name="kgv2 help">
+                <function>kgv2Rules</function>
+                <cooldown>10</cooldown>
+        </command>
+
+        <command name="kgv2 test">
+                <reply>Christian and Angel are both noobs!</reply>
+        </command>
+
+        <command name="kgv2 play">
+                <reply>This feature is currently a work-in-progress. &lt;@196425012670889984> will be developing this feature into the bot. Expected release date is February 27th, 2019. We will provide updates as time goes on!</reply>
+                <cooldown>10</cooldown>
+        </command>
+
+        <command name="kgv2 member">
+                <reply>**Member Application**
+Here is where you sign up to be a Member - https://kyantiegaming.com/showthread.php?tid=2</reply>
+                <cooldown>10</cooldown>
+        </command>
+
+        <command name="kgv2 trello">
+                <reply>**KG Murder Server Trello Board**
+https://trello.com/b/It4rAt5F/murder</reply>
+                <cooldown>10</cooldown>
+        </command>
+
+        <command name="kgv2 report">
+                <reply>**Staff Report**
+https://kyantiegaming.com/showthread.php?tid=3
+
+**Report a Player**
+https://kyantiegaming.com/showthread.php?tid=4</reply>
+                <cooldown>10</cooldown>
+        </command>
+
+        <command name="kgv2 downloads">
+                <reply>**A list of downloads for all of our servers**
+https://steamcommunity.com/sharedfiles/filedetails/?id=1586423114</reply>
+                <cooldown>10</cooldown>
+        </command>
+    </Commands>
+
+    <Config>
+
+    </Config>
+</DiscordBotConfig>
